@@ -1,0 +1,19 @@
+function [ obj ] = estimatePrimaryEnergyOutput_lhv_MJ( obj )
+%ESTIMATEPRIMARYENERGYOUTPUT_LHV_MJ Summary of this function goes here
+%   Detailed explanation goes here
+
+obj.primaryEnergyOutput_spatial_lhv_MJ_perYear = obj.cropYield_identifiedLands_tonsPerYear*obj.calorificValue_weightedAllPlant_MJperKgFromGAEZ_lhv*10^3;%10^3 to get MJ/ton
+obj.primaryEnergyOutput_total_lhv_MJ_perYear = sum(sum(obj.primaryEnergyOutput_spatial_lhv_MJ_perYear));
+obj.primaryEnergyOutput_total_lhv_EJ_perYear = obj.primaryEnergyOutput_total_lhv_MJ_perYear*10^(-12);
+
+obj.primaryEnergyOutput_excludingBH_spatial_lhv_MJ_perYear = obj.cropYield_identifiedLands_excludingBiodHotspots_tonsPerYear*obj.calorificValue_weightedAllPlant_MJperKgFromGAEZ_lhv*10^3;
+obj.primaryEnergyOutput_excludingBH_total_lhv_MJ_perYear = sum(sum(obj.primaryEnergyOutput_excludingBH_spatial_lhv_MJ_perYear));
+obj.primaryEnergyOutput_excludingBH_total_lhv_EJ_perYear = obj.primaryEnergyOutput_excludingBH_total_lhv_MJ_perYear*10^(-12);
+
+% Get bioenergy yields
+
+obj.globalEnergyYields_lhv_GJperHectarePerYear = obj.dataMatrix_lonXlat_multiplicationFactorAccounted*obj.calorificValue_weightedAllPlant_MJperKgFromGAEZ_lhv;
+obj.globalEnergyYields_hhv_GJperHectarePerYear = obj.dataMatrix_lonXlat_multiplicationFactorAccounted*obj.calorificValue_weightedAllPlant_MJperKgFromGAEZ_hhv;
+
+end
+
