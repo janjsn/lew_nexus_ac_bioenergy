@@ -13,8 +13,8 @@ Relies on:
 - Lower heating values (GJ/ton).
 - Datasets of biodiversity hotspots (processed data provided here at 5 armcin). 
   Biodiversity hotspots data have been gridded from shapefiles to 10 arcseconds by ArcGIS, then used to filter land availability at 10 arcsec.
-- Yield gap data from GAEZ website.
-- Physical water scarcity data (GAEZ website or https://data.apps.fao.org/aquamaps/).
+- Yield gap data from GAEZ.
+- Physical water scarcity data (GAEZ or https://data.apps.fao.org/aquamaps/).
 - Future projected bioenergy demand from SSP database (https://tntcat.iiasa.ac.at/SspDb/dsd?Action=htmlpage&page=welcome).
 - National identifier grid (https://doi.org/10.7927/H4TD9VDP)
 - Gridded fertilizer data (https://doi.org/10.7927/H4FQ9TJR, https://doi.org/10.7927/H4Q81B0R). 
