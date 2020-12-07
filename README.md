@@ -9,7 +9,7 @@ Modules refer to:
 
 Custom code is memory intensive, and has been run on a server with 1 TB RAM.
 
-Processed datasets are obtainable as referenced in the article.
+Processed datasets are obtainable as referenced in the article (url: *manuscript under revision*).
 
 See individual readme files for further information.
 
