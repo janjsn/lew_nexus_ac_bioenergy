@@ -4,7 +4,7 @@ Quantifies bioenergy potentials, and associated land, energy, and water use nexu
 
 Settings, input filenames and input variable names are defined in: 
  - Main namelist file: InputData/namelist_Input.m --> netcdf filenames, variables ++
- - Input excel file describing GAEZ crop data filenames, 'GAEZ maps/Input/Import GAEZ files.xlsx' --> GAEZ data
+ - Input excel file describing GAEZ crop data characteristics and filenames, 'GAEZ maps/Input/Import GAEZ files.xlsx' --> GAEZ data
 
 Relies on:
 - Land availability data produced through module_land_cover (processed aggregated data at 5 arcmin provided here).
