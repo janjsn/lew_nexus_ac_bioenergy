@@ -25,7 +25,7 @@ Further description is provided in namelist comments.
 
 Run main_integration.m after correctly mapping input files. Custom code spatially quantifies bioenergy potentials, water use, productivity distributions, and nexus indicators across all correctly mapped potential variants.
 
-Produces mainly results to memory in variant specific arrays. A switch exist in namelist to activate some output functions when main_integration.m code is run. Arrays are searchable through IDs and identification vectors.
+Produces mainly results to memory in variant specific arrays. A switch exist in namelist to activate some output functions when main_integration.m code is run. Arrays are searchable through IDs and identification vectors describing variant characteristics.
 
 Other targeted output export and plot functions are located in /src/.. or as methods for individual classes (check @XXX folders).
 
