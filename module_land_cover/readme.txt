@@ -12,4 +12,5 @@ getAbandonedCropland.m.
 Run for cropland:
 getCroplandExtent.m
 
+Integration module uses processed land availability data from here.
 
