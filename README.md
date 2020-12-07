@@ -3,7 +3,7 @@
 Custom code used to process data for the analysis entitled "The Land-energy-water nexus of global bioenergy potentials from abandoned cropland."
 
 Modules refer to:
-1. Process land cover data (ESA CCI-LC).
+1. Process land cover data.
 2. Integrate datasets and methods to produce bioenergy potentials and key nexus indicators.
 3. Compare FAO statistics with ESA CCI-LC.
 
