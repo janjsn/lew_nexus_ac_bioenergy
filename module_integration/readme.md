@@ -9,7 +9,7 @@ Settings, input filenames and input variable names are defined in:
 Relies on:
 - Land availability data produced through module_land_cover (processed aggregated data at 5 arcmin provided here).
 - Spatial crop yields (ton dry mass) from the agro-ecological crop model GAEZ for different crops, management intensities, water supply, and climatic conditions.
-- Crop water deficit data produced by GAEZ (i.e. mm/year that needs to be covered by irrigation). Water deficit data is as a convention mapped here together with the corresponding irrigated GAEZ crop yields.
+- Crop water deficit data produced by GAEZ (i.e. mm/year that needs to be covered by irrigation). Water deficit data is as a convention mapped here linked to the corresponding irrigated GAEZ crop yields.
 - Lower heating values (GJ/ton).
 - Datasets of biodiversity hotspots (processed data provided here at 5 armcin). 
   Biodiversity hotspots data have been gridded from shapefiles to 10 arcseconds by ArcGIS, then used to filter land availability at 10 arcsec.
