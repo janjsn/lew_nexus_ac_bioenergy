@@ -2,13 +2,32 @@ Code to integrate datasets and methods for LWE nexus study.
 
 Quantifies bioenergy potentials, and associated land and energy water use on recently abandoned cropland.
 
+Relies on:
+- Land availability input data produced through module_land_cover (processed data at 5 arcmin provided here).
+- Spatial crop yields (ton dry mass) from the agro-ecological crop model GAEZ for different crops, management intensities, water supply, and climatic conditions.
+- Crop water deficit data produced by GAEZ (mm/year).
+- Lower heating values (GJ/ton).
+- Datasets of biodiversity hotspots (processed data provided here at 5 armcin). 
+  History: have been gridded from shapefiles to 10 arcseconds by ArcGIS, then used to filter land availability at 10 arcsec.
+- Yield gap data from GAEZ website.
+- Physical water scarcity data (https://data.apps.fao.org/aquamaps/).
+- Future projected bioenergy demand from SSP database (https://tntcat.iiasa.ac.at/SspDb/dsd?Action=htmlpage&page=welcome).
+- National identifier grid (https://doi.org/10.7927/H4TD9VDP)
+- Gridded fertilizer data (https://doi.org/10.7927/H4FQ9TJR, https://doi.org/10.7927/H4Q81B0R). 
+
+For GAEZ model description and data access, check: http://www.gaez.iiasa.ac.at/.
+
 Settings, input filenames and input variable names are defined in: 
  - Main namelist file: InputData/namelist_Input.m --> netcdf filenames, variables ++
- - Input excel file for GAEZ crop data, 'GAEZ maps/Input/Import GAEZ files.xlsx' --> GAEZ data
+ - Input excel file describing GAEZ crop data filenames, 'GAEZ maps/Input/Import GAEZ files.xlsx' --> GAEZ data
 
-Run main_integration.m after correctly mapping input files. Produces results to memory. 
+Water deficit data is as a convention mapped here together with the corresponding irrigated GAEZ crop yields.
 
-Targeted output export and plot functions are located in /src/.. or as methods for individual classes (check @XXX folders).
+Run main_integration.m after correctly mapping input files. Custom code spatially quantifies bioenergy potentials, water use, productivity distributions, and nexus indicators across all potential variants.
+
+Produces mainly results to memory in variant specific arrays. A switch exist in namelist to activate some output functions when main_integration.m code is run. Array data is searchable through IDs and identification vectors. 
+
+Other targeted output export and plot functions are located in /src/.. or as methods for individual classes (check @XXX folders).
 
 
 
