@@ -1,4 +1,4 @@
----- Code to integrate datasets and methods for LWE nexus study.----
+Code to integrate datasets and methods for LWE nexus study.
 
 Quantifies bioenergy potentials, and associated land and energy water use on recently abandoned cropland.
 
