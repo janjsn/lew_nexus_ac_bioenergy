@@ -4,7 +4,7 @@ Custom code used to process data for the analysis entitled "The Land-energy-wate
 
 Modules refer to:
 1. Process land cover data.
-2. Integrate datasets and methods to produce bioenergy potentials and key nexus indicators.
+2. Integrate datasets and methods to assess bioenergy potentials and key nexus indicators.
 3. Compare FAO statistics with ESA CCI-LC.
 
 Custom code is memory intensive, and has been run on a server with 1 TB RAM.
