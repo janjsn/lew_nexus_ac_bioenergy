@@ -1,6 +1,6 @@
 -- Code to process land cover data (ESA CCI-LC). --
 
-Data to process are not provided in GIT, but obtainable at the ESA database website.
+CCI land cover data files are not provided in GIT, but obtainable at the ESA database website.
 
 Land cover processing is done at 10 arcsec. Outputs are produced at a variety of resolutions.
 
