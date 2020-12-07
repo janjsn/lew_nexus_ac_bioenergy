@@ -5,7 +5,7 @@ Quantifies bioenergy potentials, and associated land, energy, and water use nexu
 Relies on:
 - Land availability input data produced through module_land_cover (processed data at 5 arcmin provided here).
 - Spatial crop yields (ton dry mass) from the agro-ecological crop model GAEZ for different crops, management intensities, water supply, and climatic conditions.
-- Crop water deficit data produced by GAEZ (mm/year). Water deficit data is as a convention mapped here together with the corresponding irrigated GAEZ crop yields.
+- Rain-fed crop water deficit data produced by GAEZ (mm/year). Water deficit data is as a convention mapped here together with the corresponding irrigated GAEZ crop yields.
 - Lower heating values (GJ/ton).
 - Datasets of biodiversity hotspots (processed data provided here at 5 armcin). 
   History: have been gridded from shapefiles to 10 arcseconds by ArcGIS, then used to filter land availability at 10 arcsec.
