@@ -12,7 +12,7 @@ Relies on:
 - Crop water deficit data produced by GAEZ (i.e. mm/year that needs to be covered by irrigation). Water deficit data is as a convention mapped here together with the corresponding irrigated GAEZ crop yields.
 - Lower heating values (GJ/ton).
 - Datasets of biodiversity hotspots (processed data provided here at 5 armcin). 
-  File history: biodiversity hotspots data have been gridded from shapefiles to 10 arcseconds by ArcGIS, then used to filter land availability at 10 arcsec.
+  Biodiversity hotspots data have been gridded from shapefiles to 10 arcseconds by ArcGIS, then used to filter land availability at 10 arcsec.
 - Yield gap data from GAEZ website.
 - Physical water scarcity data (GAEZ website or https://data.apps.fao.org/aquamaps/).
 - Future projected bioenergy demand from SSP database (https://tntcat.iiasa.ac.at/SspDb/dsd?Action=htmlpage&page=welcome).
