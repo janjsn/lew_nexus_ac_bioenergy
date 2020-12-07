@@ -21,7 +21,7 @@ Settings, input filenames and input variable names are defined in:
  - Main namelist file: InputData/namelist_Input.m --> netcdf filenames, variables ++
  - Input excel file describing GAEZ crop data filenames, 'GAEZ maps/Input/Import GAEZ files.xlsx' --> GAEZ data
 
-Water deficit data is as a convention mapped here together with the corresponding irrigated GAEZ crop yields.
+Water deficit data is as a convention mapped here together with the corresponding irrigated GAEZ crop yields. Further description is provided in namelist comments.
 
 Run main_integration.m after correctly mapping input files. Custom code spatially quantifies bioenergy potentials, water use, productivity distributions, and nexus indicators across all potential variants.
 
