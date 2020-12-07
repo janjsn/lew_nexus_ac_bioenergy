@@ -3,7 +3,7 @@ Code to integrate datasets and methods for LWE nexus study.
 Quantifies bioenergy potentials, and associated land, energy, and water use nexus indicators on recently abandoned cropland.
 
 Relies on:
-- Land availability input data produced through module_land_cover (processed data at 5 arcmin provided here).
+- Land availability data produced through module_land_cover (processed data at 5 arcmin provided here).
 - Spatial crop yields (ton dry mass) from the agro-ecological crop model GAEZ for different crops, management intensities, water supply, and climatic conditions.
 - Crop water deficit data produced by GAEZ (i.e. mm/year that needs to be covered by irrigation). Water deficit data is as a convention mapped here together with the corresponding irrigated GAEZ crop yields.
 - Lower heating values (GJ/ton).
