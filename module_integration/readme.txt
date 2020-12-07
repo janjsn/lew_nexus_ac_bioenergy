@@ -1,6 +1,6 @@
 Code to integrate datasets and methods for LWE nexus study.
 
-Quantifies bioenergy potentials, and associated land and energy water use on recently abandoned cropland.
+Quantifies bioenergy potentials, and associated land, energy, and water use nexus indicators on recently abandoned cropland.
 
 Relies on:
 - Land availability input data produced through module_land_cover (processed data at 5 arcmin provided here).
