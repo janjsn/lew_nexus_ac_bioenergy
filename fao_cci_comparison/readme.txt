@@ -7,12 +7,12 @@ Relies on:
  3. FAO inventories providing country land use as %, Excels
  4. Equal country names from GPW and FAO. 
 
-GPW-v4 and FAO inventories must be downloaded from respective websites due to copyrights, then correctly mapped in "main.m".
+GPW-v4 and FAO inventories must be downloaded from respective websites, then correctly mapped in "main.m".
 
 Note that a few countries are not catched by the code (< 10%).
 Produces results to memory and graphs to ".gif" for all countries with 
 similar name in both sources. Results includes linear regressions.
 
-20.08.2020 - Jan Sandstad Næss
+20.08.2020 - Jan Sandstad NÃ¦ss
 
 
