@@ -25,7 +25,7 @@ Settings, input filenames and input variable names are defined in:
 
 Run main_integration.m after correctly mapping input files. Custom code spatially quantifies bioenergy potentials, water use, productivity distributions, and nexus indicators across all potential variants.
 
-Produces mainly results to memory in variant specific arrays. A switch exist in namelist to activate some output functions when main_integration.m code is run. Array data is searchable through IDs and identification vectors. 
+Produces mainly results to memory in variant specific arrays. A switch exist in namelist to activate some output functions when main_integration.m code is run. Array data is searchable through IDs and identification vectors.
 
 Other targeted output export and plot functions are located in /src/.. or as methods for individual classes (check @XXX folders).
 
