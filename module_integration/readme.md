@@ -29,5 +29,6 @@ Produces mainly results to memory in variant specific arrays at various resoluti
 
 Other targeted output export and plot functions are located in /src/.. or as methods for individual classes (check @XXX folders).
 
+contact: jan.s.nass@ntnu.no
 
 
