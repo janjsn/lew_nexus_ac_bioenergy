@@ -14,3 +14,4 @@ Processed datasets are obtainable as referenced in the article (url: https://www
 See individual readme files for further information.
 
 
+Næss, J.S., Cavalett, O. & Cherubini, F. The land–energy–water nexus of global bioenergy potentials from abandoned cropland. Nat Sustain (2021). https://doi.org/10.1038/s41893-020-00680-5
