@@ -14,3 +14,4 @@ getCroplandExtent.m
 
 Integration module uses processed land availability data from here.
 
+contact: jan.s.nass@ntnu.no
