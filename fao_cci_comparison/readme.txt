@@ -13,6 +13,6 @@ Note that a few countries are not catched by the code (< 10%).
 Produces results to memory and graphs to ".gif" for all countries with 
 similar name in both sources. Results includes linear regressions.
 
-20.08.2020 - Jan Sandstad Næss
+20.08.2020 - Jan Sandstad Næss (jan.s.nass@ntnu.no)
 
 
